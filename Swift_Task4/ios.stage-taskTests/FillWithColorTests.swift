@@ -58,7 +58,9 @@ class FillWithColorTests: XCTestCase {
     }
 
     func test6() {
-        image = [[1,0,1],[0,1,0],[1,0,1]]
+        image = [[1,0,1],
+                 [0,1,0],
+                 [1,0,1]]
         row = 0
         column = 0
         newColor = 2
